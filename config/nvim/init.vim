@@ -16,17 +16,18 @@ Plug 'tpope/vim-repeat'
 Plug 'chr4/nginx.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'nlknguyen/papercolor-theme'
-Plug 'ryanoasis/vim-devicons'
+Plug 'isobit/vim-caddyfile'
+"Plug 'nlknguyen/papercolor-theme'
+"Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 " Enable line numbers
-set number
+" set number
 " Enable statusline
 set laststatus=2
 " Use powerline fonts for statusline
 let g:airline_powerline_fonts = 1
 
 " Use PaperColor theme
-set background=dark
-colorscheme PaperColor
+"set background=dark
+"colorscheme PaperColor
