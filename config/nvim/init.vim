@@ -17,6 +17,7 @@ Plug 'chr4/nginx.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'isobit/vim-caddyfile'
+Plug 'ctiml/haproxy-syntax-vim'
 "Plug 'nlknguyen/papercolor-theme'
 "Plug 'ryanoasis/vim-devicons'
 call plug#end()
