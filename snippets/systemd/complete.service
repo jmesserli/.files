@@ -1,0 +1,17 @@
+[Unit]
+Description=<...>
+After=network.target remote-fs.target nss-lookup.target
+
+[Service]
+Type=<notify|simple>
+EnvironmentFile=<...>
+ExecStart=<...>
+ExecReload=<...>
+ExecStop=<...>
+KillSignal=SIG<...>
+WorkingDirectory=<...>
+User=<...>
+Group=<...>
+
+[Install]
+WantedBy=multi-user.target
