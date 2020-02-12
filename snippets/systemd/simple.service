@@ -1,0 +1,9 @@
+[Unit]
+Description=<desc>
+
+[Service]
+Type=simple
+ExecStart=<executable>
+
+[Install]
+WantedBy=multi-user.target
