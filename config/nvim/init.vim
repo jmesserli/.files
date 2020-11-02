@@ -13,11 +13,15 @@ Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/fzf'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
-Plug 'chr4/nginx.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'isobit/vim-caddyfile'
+
+" Syntax
 Plug 'ctiml/haproxy-syntax-vim'
+Plug 'tolecnal/icinga2-vim'
+Plug 'chr4/nginx.vim'
+Plug 'isobit/vim-caddyfile'
+
 "Plug 'nlknguyen/papercolor-theme'
 "Plug 'ryanoasis/vim-devicons'
 call plug#end()
