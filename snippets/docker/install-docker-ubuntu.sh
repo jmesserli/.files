@@ -20,3 +20,10 @@ read -rp "If you don't see a key above, you have the wrong key installed. [Enter
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" &&
     sudo apt update &&
     sudo apt install -y docker-ce docker-ce-cli containerd.io
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" \
+    -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+# curl -sSL https://peg.nu/docker_setup | bash
