@@ -21,6 +21,7 @@ Plug 'ctiml/haproxy-syntax-vim'
 Plug 'tolecnal/icinga2-vim'
 Plug 'chr4/nginx.vim'
 Plug 'isobit/vim-caddyfile'
+Plug 'cespare/vim-toml'
 
 "Plug 'nlknguyen/papercolor-theme'
 "Plug 'ryanoasis/vim-devicons'
