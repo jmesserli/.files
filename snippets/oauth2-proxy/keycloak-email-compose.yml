@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+    oauth-proxy:
+        image: quay.io/oauth2-proxy/oauth2-proxy
+
+        restart: unless-stopped
+
+        environment:
+            OAUTH2_PROXY_PROVIDER: keycloak
+            OAUTH2_PROXY_CLIENT_ID: <client_id>
+            OAUTH2_PROXY_CLIENT_SECRET: <client_secret>
+            OAUTH2_PROXY_LOGIN_URL: https://<domain>/auth/realms/<realm>/protocol/openid-connect/auth
+            OAUTH2_PROXY_REDEEM_URL: https://<domain>/auth/realms/<realm>/protocol/openid-connect/token
+            OAUTH2_PROXY_PROFILE_URL: https://<domain>/auth/realms/<realm>/protocol/openid-connect/userinfo
+            OAUTH2_PROXY_VALIDATE_URL: https://<domain>/auth/realms/<realm>/protocol/openid-connect/userinfo
+            OAUTH2_PROXY_EMAIL_DOMAINS: <email_domain>
+            OAUTH2_PROXY_COOKIE_SECRET: <cookie secret>
+            OAUTH2_PROXY_HTTP_ADDRESS: 0.0.0.0:4180
+            OAUTH2_PROXY_SCOPE: email
+            OAUTH2_PROXY_SKIP_PROVIDER_BUTTON: 'true'
+
+        ports:
+            - 4180:4180
