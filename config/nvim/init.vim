@@ -10,7 +10,8 @@ set expandtab
 call plug#begin('~/.vim/plugged')
 Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'scrooloose/nerdtree'
