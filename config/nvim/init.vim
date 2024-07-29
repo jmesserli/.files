@@ -24,6 +24,7 @@ Plug 'chr4/nginx.vim'
 Plug 'isobit/vim-caddyfile'
 Plug 'cespare/vim-toml'
 Plug 'jvirtanen/vim-hcl'
+Plug 'egberts/vim-syntax-bind-named'
 
 "Plug 'nlknguyen/papercolor-theme'
 "Plug 'ryanoasis/vim-devicons'
