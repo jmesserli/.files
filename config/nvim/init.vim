@@ -25,6 +25,7 @@ Plug 'isobit/vim-caddyfile'
 Plug 'cespare/vim-toml'
 Plug 'jvirtanen/vim-hcl'
 Plug 'egberts/vim-syntax-bind-named'
+Plug 'nfnty/vim-nftables'
 
 "Plug 'nlknguyen/papercolor-theme'
 "Plug 'ryanoasis/vim-devicons'
